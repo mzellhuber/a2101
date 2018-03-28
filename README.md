@@ -1,14 +1,18 @@
 # a2101
 
-Landing page for a2101
+Web page for a2101 studio
 
 ## Development url
 
-Site is hosted in [Heroku](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
+Site is hosted in [Heroku](https://a2101.herokuapp.com/)
+
+## Production url
+
+Site is located at [a2101](https://a2.101.com/)
 
 ### About
 
--About a2101-
+We are a team of professionals characterized by the diversity of areas of knowledge; with cutting-edge skills and tools submerged in the information and movement of the global scene.
 
 ## Author
 

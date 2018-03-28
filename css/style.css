@@ -1,0 +1,58 @@
+body{
+	font-family: 'Futura' ,'Raleway', sans-serif;
+}
+
+.wrapper {
+   display: flex;
+}
+
+.jumbotron{
+	background-color: transparent;
+}
+
+.sidebar {
+	margin-top: 65px; 
+}
+
+.contain{
+	width: 100%
+}
+
+.language-link a, .language-link a:focus{
+	font-weight: bold;
+	color: silver;
+	background-color: transparent !important;
+}
+
+.language-link a:hover{
+	background-color: transparent !important;
+	color: black;
+}
+
+.well{
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.rotate{
+
+	margin-right: 70%;
+    margin-top: 100%;
+
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
+
+}
+
+.logo-img{
+	max-width: 100%;
+}
+
+.logo-img img {
+    max-width: 60%;
+    max-height: auto;
+    padding-left: 10%;
+}
