@@ -47,6 +47,15 @@ body{
 
 }
 
+.mailto a{
+	color: DimGray;
+}
+
+.mailto a:hover{
+	background-color: transparent !important;
+	color: black;
+}
+
 .logo-img{
 	max-width: 100%;
 }
