@@ -1,5 +1,18 @@
+@font-face {
+    font-family: FuturaLight;
+    src: url(../font/FuturaLight.ttf);
+}
+
 body{
-	font-family: 'Futura' ,'Raleway', sans-serif;
+	font-family: 'FuturaLight','Futura' ,'Raleway', sans-serif;
+}
+
+.crimison-font{
+	font-family: 'Crimson Text', serif;
+}
+
+.futura-bold{
+	font-family: 'Futura'
 }
 
 .wrapper {
@@ -11,11 +24,39 @@ body{
 }
 
 .sidebar {
-	margin-top: 65px; 
+	margin-top: 50px; 
+}
+
+.left{
+	padding-left: 25%;
 }
 
 .contain{
 	width: 100%
+}
+
+.go-right{
+	margin-left: 10%;
+}
+
+.social-icon a{
+	color:black;
+	padding-left: 15%;
+}
+
+.social-icon a:hover{
+	color:DimGray;
+	padding-left: 15%;
+}
+
+.link-work{
+	color:black;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.link-work:hover{
+	color:DimGray;
 }
 
 .language-link a, .language-link a:focus{
@@ -37,14 +78,12 @@ body{
 }
 
 .rotate{
-
 	margin-right: 70%;
     margin-top: 100%;
 
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg); 
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
-
 }
 
 .mailto a{
@@ -58,10 +97,55 @@ body{
 
 .logo-img{
 	max-width: 100%;
+	padding-top:15%;
 }
 
 .logo-img img {
-    max-width: 60%;
+    max-width: 65%;
     max-height: auto;
-    padding-left: 10%;
+    /*padding-left: 10%;*/
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.first{
+	margin-top: 35%;
+	margin-left: 50%;
+}
+
+.first p{
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.second{
+	margin-left: 50%;
+	margin-top:10%;
+}
+
+.second p{
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.elegant{
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-size: 14px !important;
+}
+
+.section{
+	height: 100vh;
+}
+
+.small-spacing p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.padding-top-second{
+	padding-top: 10%;
+	margin-bottom: 0px !important;
 }
