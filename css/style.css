@@ -1,18 +1,33 @@
 @font-face {
     font-family: FuturaLight;
-    src: url(../font/FuturaLight.ttf);
+    src: url(../font/FuturaStd-Light.otf);
+}
+
+@font-face {
+    font-family: FuturaBold;
+    src: url(../font/FuturaStd-Bold.otf);
+}
+
+@font-face {
+    font-family: CaslonPro;
+    src: url(../font/Adobe-Caslon-Pro.ttf);
+}
+
+@font-face {
+    font-family: CaslonProItalic;
+    src: url(../font/Adobe-Caslon-Pro-Italic.ttf);
 }
 
 body{
-	font-family: 'FuturaLight','Futura' ,'Raleway', sans-serif;
+	font-family: 'FuturaLight' ,'Raleway', sans-serif;
 }
 
 .crimison-font{
-	font-family: 'Crimson Text', serif;
+	font-family: 'CaslonPro', 'Crimson Text', serif;
 }
 
 .futura-bold{
-	font-family: 'Futura'
+	font-family: 'FuturaBold','Futura'
 }
 
 .wrapper {
@@ -59,13 +74,14 @@ body{
 	color:DimGray;
 }
 
-.language-link a, .language-link a:focus{
+.language-link button, .language-link button:focus{
 	font-weight: bold;
 	color: silver;
 	background-color: transparent !important;
+	border: none
 }
 
-.language-link a:hover{
+.language-link button:hover{
 	background-color: transparent !important;
 	color: black;
 }
@@ -131,7 +147,7 @@ body{
 }
 
 .elegant{
-	font-family: 'Crimson Text', serif;
+	font-family: 'CaslonProItalic','Crimson Text', serif;
 	font-style: italic;
 	font-size: 14px !important;
 }
@@ -148,4 +164,8 @@ body{
 .padding-top-second{
 	padding-top: 10%;
 	margin-bottom: 0px !important;
+}
+
+.map{
+    margin-left:  40%;
 }
