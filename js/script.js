@@ -10,7 +10,6 @@ function changeLanguage(){
 
 	if (en) {
 		//language is english
-		$('.work').html('work')
 
 		$('li.change_language button').html("ES");
 
@@ -58,7 +57,6 @@ function changeLanguage(){
 
 	}else{
 		//language is spanish
-		$('.work').html('trabajo')
 
 		$('li.change_language button').html("EN");
 
