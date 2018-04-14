@@ -2,14 +2,50 @@ var en = false;
 
 $( document ).ready(function() {
 
+	checkCookie()
 	changeLanguage()
 	
 });
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var language = getCookie("language");
+    if (language == "en") {
+        en = true
+    }else if(language == "es"){
+    	en = false
+    } else {
+    	setCookie("language", "es", 365);
+    }
+}
 
 function changeLanguage(){	
 
 	if (en) {
 		//language is english
+		setCookie('language','en',365);
+
 
 		$('li.change_language button').html("ES");
 
@@ -57,6 +93,8 @@ function changeLanguage(){
 
 	}else{
 		//language is spanish
+
+		setCookie('language','es',365);
 
 		$('li.change_language button').html("EN");
 

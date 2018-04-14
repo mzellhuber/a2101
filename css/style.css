@@ -20,14 +20,21 @@
 
 body{
 	font-family: 'FuturaLight' ,'Raleway', sans-serif;
+	line-height: 14pt;
+	letter-spacing: 1.5px;
+}
+
+.line-no-space{
+	letter-spacing: normal;
 }
 
 .crimison-font{
 	font-family: 'CaslonPro', 'Crimson Text', serif;
+	font-size: 13px !important;
 }
 
 .futura-bold{
-	font-family: 'FuturaBold','Futura'
+	font-family: 'FuturaBold','Futura';
 }
 
 .wrapper {
@@ -54,9 +61,9 @@ body{
 	margin-left: 10%;
 }
 
-.social-icon a{
+.social-icon a, .separator{
 	color:black;
-	padding-left: 15%;
+	padding-left: 13%;
 }
 
 .social-icon a:hover{
@@ -113,11 +120,12 @@ body{
 
 .logo-img{
 	max-width: 100%;
-	padding-top:15%;
+	padding-top:19%;
+	padding-bottom: 5%;
 }
 
 .logo-img img {
-    max-width: 65%;
+    max-width: 70%;
     max-height: auto;
     /*padding-left: 10%;*/
 }
@@ -127,12 +135,12 @@ body{
 }
 
 .first{
-	margin-top: 35%;
-	margin-left: 50%;
+	margin-top: 30%;
+	margin-left: 47%;
 }
 
 .first p{
-	font-size: 16px;
+	font-size: 13px !important;
 	font-weight: lighter;
 }
 
@@ -142,14 +150,14 @@ body{
 }
 
 .second p{
-	font-size: 16px;
+	font-size: 13px !important;
 	font-weight: lighter;
 }
 
 .elegant{
 	font-family: 'CaslonProItalic','Crimson Text', serif;
 	font-style: italic;
-	font-size: 14px !important;
+	font-size: 11px !important;
 }
 
 .section{
@@ -168,6 +176,10 @@ body{
 
 .map{
     margin-left:  40%;
+}
+
+.first-work{
+	padding-top: 10%;
 }
 
 /*xs screens*/
