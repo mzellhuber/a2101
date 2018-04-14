@@ -182,6 +182,11 @@ body{
 	padding-top: 10%;
 }
 
+.ico{
+	max-width: 20px;
+	max-height: 20px;
+}
+
 /*xs screens*/
 
 @media (min-width:769px) {
