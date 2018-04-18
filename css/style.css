@@ -20,7 +20,7 @@
 
 body{
 	font-family: 'FuturaLight' ,'Raleway', sans-serif;
-	line-height: 14pt;
+	line-height: 13pt;
 	letter-spacing: 1.5px;
 }
 
@@ -30,7 +30,7 @@ body{
 
 .crimison-font{
 	font-family: 'CaslonPro', 'Crimson Text', serif;
-	font-size: 13px !important;
+	font-size: 12px !important;
 }
 
 .futura-bold{
@@ -50,7 +50,7 @@ body{
 }
 
 .left{
-	padding-left: 25%;
+	padding-left: 40%;
 }
 
 .contain{
@@ -75,6 +75,7 @@ body{
 	color:black;
 	padding-left: 8%;
 	padding-right: 8%;
+	font-size: 12px;
 }
 
 .link-work:hover{
@@ -85,7 +86,8 @@ body{
 	font-weight: bold;
 	color: silver;
 	background-color: transparent !important;
-	border: none
+	border: none;
+	margin-left: 5%;
 }
 
 .language-link button:hover{
@@ -101,12 +103,17 @@ body{
 }
 
 .rotate{
+	font-size: 12px;
 	margin-right: 70%;
     margin-top: 100%;
 
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg); 
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
+}
+
+.upup{
+	margin-top: -5%;
 }
 
 .mailto a{
@@ -125,7 +132,7 @@ body{
 }
 
 .logo-img img {
-    max-width: 70%;
+    max-width: 80%;
     max-height: auto;
     /*padding-left: 10%;*/
 }
@@ -135,22 +142,24 @@ body{
 }
 
 .first{
-	margin-top: 30%;
-	margin-left: 47%;
+	margin-top: 34%;
+	margin-left: 42%;
+    margin-right: 15%;
 }
 
 .first p{
-	font-size: 13px !important;
+	font-size: 12px !important;
 	font-weight: lighter;
 }
 
 .second{
-	margin-left: 50%;
+	margin-left: 42%;
 	margin-top:10%;
+	margin-right: 15%;
 }
 
 .second p{
-	font-size: 13px !important;
+	font-size: 12px !important;
 	font-weight: lighter;
 }
 
@@ -164,6 +173,10 @@ body{
 	height: 100vh;
 }
 
+.small-spacing{
+	padding-bottom: 7%;
+}
+
 .small-spacing p{
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -175,16 +188,36 @@ body{
 }
 
 .map{
-    margin-left:  40%;
+    margin-left:  32%;
+    margin-right: -5%;
 }
 
 .first-work{
+	padding-top: 8%;
+	padding-bottom: 10%;
+}
+
+.center-work{
+	left: -7%;
+	z-index: -1;
 	padding-top: 10%;
 }
 
 .ico{
-	max-width: 20px;
-	max-height: 20px;
+	max-width: 17px;
+	max-height: 10px;
+}
+
+.move-left{
+	padding-left: 4%;
+}
+
+.move-menu-left{
+	margin-left: -5%;
+}
+
+.services{
+	margin-bottom: 10% !important;
 }
 
 /*xs screens*/
@@ -197,6 +230,9 @@ body{
 
 
 @media (max-width:768px) {
+	.move-left{
+		padding-left: 0%;
+	}
     .social-icons, .contact-info{
     	display: none;
     }
