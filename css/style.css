@@ -169,6 +169,14 @@ body{
 	font-size: 11px !important;
 }
 
+.process, .about-us{
+	margin-bottom: 35px !important;
+}
+
+.about-us-p2, .process-p, .eclectisism-p, .presence-p{
+	margin-bottom: 25px !important;
+}
+
 .section{
 	height: 100vh;
 }
