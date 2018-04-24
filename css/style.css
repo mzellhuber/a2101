@@ -232,10 +232,11 @@ body{
 
 #date {
 	position: fixed;
-    top: 210px;
+    top: 198px;
     right: 155px;
     height: 90px;
     width: 62px;
+    font-size: 12px;
 }
 
 /*xs screens*/
