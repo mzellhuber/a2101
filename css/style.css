@@ -213,6 +213,9 @@ body{
 	padding-top: 10%;
 }
 
+.center-work img{
+	max-width: 90%;
+}
 
 .ico{
 	max-width: 17px;
