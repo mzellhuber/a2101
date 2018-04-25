@@ -108,6 +108,7 @@ function changeLanguage(){
 
 		$('.presence-p').html('Our collaborators in other parts of the world contribute their experience and vision to each of our projects, generating competitive results on a global scale.')
 
+		$('.collaborators').html('Collaborators')
 	}else{
 		//language is spanish
 
@@ -158,6 +159,7 @@ function changeLanguage(){
 
 		$('.presence-p').html('Nuestros colaboradores en otras partes del mundo aportan su experiencia y visión a cada uno de nuestros proyectos, generando resultados competitivos a escala global.')
 
+		$('.collaborators').html('Colaboradores')
 	};
 
 	en = !en;
