@@ -133,7 +133,7 @@ body{
 }
 
 .logo-img img {
-    max-width: 80%;
+    max-width: 90%;
     max-height: auto;
     /*padding-left: 10%;*/
 }
@@ -237,7 +237,7 @@ body{
 #date {
 	position: fixed;
     top: 196px;
-    right: 153px;
+    right: 196px;
     height: 90px;
     width: 62px;
     font-size: 12px;
