@@ -171,7 +171,7 @@ function changeLanguage(){
 
 		$('.services-elegant21').html('<p>Identidad visual y logotipo.</p><p>Aplicaciones de marca.</p><p>Diseño de empaque.</p><p>Material digital e impreso.</p>')
 
-		$('.services-elegant31').html('<p>Diseño de libros y revistas.</p><p>Diseño de libros y revistas.</p>')
+		$('.services-elegant31').html('<p>Diseño de libros y revistas.</p><p>Posters y folletos.</p>')
 
 		$('.services-elegant4').html('Diseño web')
 
