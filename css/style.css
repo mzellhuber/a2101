@@ -292,14 +292,20 @@ body{
 	.logo-img{
 		margin-left: 9%;
 		margin-top: 20%;
+		padding-top: 16%;
 	}
 
 	.logo-img img{
 		max-width: 55%;
+
 	}
 
 	.ico{
 		margin-left: 5%;
+	}
+
+	.fa-envelope{
+		font: normal normal normal 13px/1 FontAwesome;
 	}
 
 	.mobile-menu{
