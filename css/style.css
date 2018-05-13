@@ -267,7 +267,7 @@ body{
 
 /*Mobile site*/
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 	.sidebar{
 		margin-left: 1.5%;
 		margin-top: -40px;
@@ -287,16 +287,17 @@ body{
 	    border-bottom-color: #e7e7e7;
 	    padding-bottom: 5%;
 	    clear: both;
+	    max-height: 110px;
 	}
 
 	.logo-img{
 		margin-left: 9%;
-		margin-top: 20%;
-		padding-top: 16%;
+		margin-top: 55px;
+		padding-top: 0%;
 	}
 
 	.logo-img img{
-		max-width: 55%;
+		max-width: 100px;
 
 	}
 
@@ -305,11 +306,11 @@ body{
 	}
 
 	.fa-envelope{
-		font: normal normal normal 13px/1 FontAwesome;
+		font: normal normal normal 12px/1 FontAwesome;
 	}
 
 	.mobile-menu{
-		margin-top: 10%;
+		margin-top: 38px;
 		padding-left: 17.2%;
 	}
 
