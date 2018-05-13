@@ -263,43 +263,37 @@ body{
 /*xs screens*/
 
 @media (min-width:769px) {
-    .footer {
-        display: none;
+
+    .only-mobile{
+    	display: none;
     }
+
 }
 
 
 @media (max-width:768px) {
+	.hide-mobile{
+		display: none;
+	}
+
 	.move-left{
 		padding-left: 0%;
 	}
-    .social-icons, .contact-info{
+    /*.social-icons, .contact-info{
     	display: none;
     }
 
     .social-icon a {
 	    padding-left: 2%;
 	    padding-right: 2%;
-	}
+	}*/
 
     .logo-img img {
     	max-width: 135%;
 	}
 
-	.mail-footer{
-		padding-top: 10px;
-	}
-
-	.footer .address, .footer .phone{
-		font-size:11px;
-	}
-
 	.fa-long-arrow-right{
 		display: none;
-	}
-
-	.footer{
-		padding-bottom: 30px;
 	}
 
 	.sidebar-right .well{
