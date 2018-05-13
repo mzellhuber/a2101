@@ -292,8 +292,9 @@ body{
 
 	.logo-img{
 		margin-left: 9%;
-		margin-top: 55px;
+		margin-top: 45px;
 		padding-top: 0%;
+		margin-bottom: 10px;
 	}
 
 	.logo-img img{
@@ -310,8 +311,12 @@ body{
 		font: normal normal normal 12px/1 FontAwesome;
 	}
 
+	.social-fb{
+		padding-left: 1px;
+	}
+
 	.mobile-menu{
-		margin-top: 38px;
+		margin-top: 28px;
 		padding-left: 17.2%;
 	}
 
