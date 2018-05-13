@@ -18,10 +18,27 @@
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 	<body>
+		<!-- Fixed navbar -->
+	    <nav class="navbar navbar-default navbar-fixed-top only-mobile">
+	      <div class="container">
+	        
+	        <div class="row">
+	        	<div class="col-xs-6">
+	        		<div class= "logo-img"><img class="img-responsive" src="./img/logo.png"></div>
+	        	</div>
+	        	<div class="col-xs-6 mobile-menu">
+	        		<img src="./img/arrow.png" class="ico">
+	        		<br>
+	        		<a class="link-work futura-bold" href="#">info</a>|<a class="link-work" href="work.html">work</a>
+	        	</div>
+	        </div>
+	        
+	      </div>
+	    </nav>
 		<div class="container contain">
 			<div class="row">
 				<!--/span-->
-				<div class="col-md-3 col-sm-1 col-xs-1 move-left">
+				<div class="col-md-3 col-sm-1 move-left hide-mobile">
 					<div class="sidebar-nav-fixed pull-right affix sidebar col-md-3 col-sm-3 col-xs-3">
 						<ul class="nav left">
 								<div class= "logo-img"><img class="img-responsive" src="./img/logo.png"></div>
@@ -45,17 +62,23 @@
 					</div>
 					<!--/sidebar-nav-fixed -->
 				</div>
-					<div class="col-md-8 col-sm-8 col-xs-8">
+					<div class="col-md-8 col-sm-8 col-xs-9 main-div">
 						<div class="jumbotron">
 
 							<div class="first">
 								<div class="row">
-									<br><br><br><br><br><br><br>
+									<div class="line-breaks">
+										<br><br><br>
+										<div class="hide-mobile">
+											<br><br><br><br>
+										</div>
+									</div>
+									
 									<div class="upup">
 										<p class="crimison-font we-are">We are a design studio specialized in brand and image development for high-end businesses.</p>
 									
-										<p class="crimison-font line-no-space"><br>_____<br></p>
-										<br>
+										<p class="crimison-font line-no-space"><br class="hide-mobile">_____<br></p>
+										<br class="hide-mobile">
 									</div>
 									
 									<br>
@@ -89,7 +112,7 @@
 									
 									<p class="futura-bold eclectisism">ECLECTICISM.</p>
 
-									<br>
+									<br class="hide-mobile">
 
 									<p class="eclectisism-p">The dynamic of the studio is characterized by dismissing the boundaries between areas of knowledge. We encourage our collaborators to explore and experiment outside their professional area to obtain inspiration from multiple and diverse sources, allowing us to develop thorough and innovative proposals.</p>
 								</div>
@@ -154,7 +177,7 @@
 									
 									<p class="futura-bold presence">PRESENCE.</p>
 
-									<br>
+									<br class="hide-mobile">
 
 									<p class="presence-p">Our collaborators in other parts of the world contribute their experience and vision to each of our projects, generating competitive results on a global scale.</p>
 								</div>
@@ -186,12 +209,16 @@
 						<div class="sidebar-nav-fixed pull-right affix sidebar sidebar-right">
 							<div class="well">
 								<ul class="nav ">
-									<li><br><br><br><br></li>
+									<br><br>
+									<li class="line-breaks-sidebar"><br><br></li>
 									<li class="language-link futura-bold change_language" ><button onclick="changeLanguage()">ES</button>
 									</li>
 									<li><br><br></li>
 									<li><br><br><br></li>
 									<div class="social-icons">
+										<div class="only-mobile">
+											<br><br><br><br><br><br>
+										</div>
 										<li class="rotate mailto hide-mobile"><a href="mailto:central@a2101studio.com?Subject=Hello" target="_top">central@a2101studio.com</a></li>
 
 										<li class="separator hide-mobile"><br><br>_<br></li>
