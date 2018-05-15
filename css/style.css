@@ -265,6 +265,7 @@ body{
 
 }
 
+
 /*Mobile site*/
 
 @media (max-width:768px) {
@@ -387,4 +388,12 @@ body{
 		margin-bottom: 15px !important;
 	}
 
+}
+
+
+/* iPad Styles */
+@media (min-width: 768px) and (max-width: 768px) {
+	.main-div {
+	    padding-left:0%;
+	}
 }
