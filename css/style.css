@@ -18,9 +18,20 @@
     src: url(../font/Adobe-Caslon-Pro-Italic.ttf);
 }
 
+@font-face{
+	font-family: SF-Heavy;
+	src: url(../font/SF-Pro-Text-Heavy.otf);
+}
+
+@font-face{
+	font-family: SF-Light;
+	src: url(../font/SF-Pro-Text-Light.otf);
+}
+
+
 body{
-	font-family: 'FuturaLight' ,'Raleway', sans-serif;
-	line-height: 13pt;
+	font-family: 'SF-Light','FuturaLight' ,'Raleway', sans-serif;
+	line-height: 12pt;
 	letter-spacing: 1px;
 }
 
@@ -34,7 +45,7 @@ body{
 }
 
 .futura-bold{
-	font-family: 'FuturaBold','Futura';
+	font-family: 'SF-Heavy','FuturaBold','Futura';
 }
 
 .wrapper {
@@ -104,7 +115,7 @@ body{
 }
 
 .rotate{
-	font-size: 12px;
+	font-size: 11px;
 	margin-right: 70%;
     margin-top: 100%;
 
@@ -149,7 +160,7 @@ body{
 }
 
 .first p, .second p{
-	font-size: 12px !important;
+	font-size: 11px !important;
 	font-weight: lighter;
 }
 
@@ -199,7 +210,7 @@ body{
 .first-work{
 	padding-top: 8%;
 	padding-bottom: 10%;
-	font-size: 12px;
+	font-size: 11px;
 	z-index: -9999;
 }
 
@@ -395,5 +406,31 @@ body{
 @media (min-width: 768px) and (max-width: 768px) {
 	.main-div {
 	    padding-left:0%;
+    	margin-left: 13.333333%;
+	}
+
+	.ipad-nav{
+		margin-left: 5%;
+		margin-right: -5%;
+	}
+
+	.sidebar {
+    	margin-left: 8%;
+	}
+
+	.social-icons{
+		margin-top: 380px;
+	}
+
+	.first{
+		margin-top: 17%;
+	}
+
+	.jumbotron{
+		padding-right: 0px !important;
+	}
+
+	.mobile-menu{
+		left: 4.333333%;
 	}
 }
