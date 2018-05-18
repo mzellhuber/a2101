@@ -28,9 +28,19 @@
 	src: url(../font/SF-Pro-Text-Light.otf);
 }
 
+@font-face{
+	font-family: Gravity-Bold;
+	src: url(../font/Gravity-Bold.otf);
+}
+
+@font-face{
+	font-family: Gravity-Book;
+	src: url(../font/Gravity-Book.otf);
+}
+
 
 body{
-	font-family: 'SF-Light','FuturaLight' ,'Raleway', sans-serif;
+	font-family: 'Gravity-Book','SF-Light','FuturaLight' ,'Raleway', sans-serif;
 	line-height: 12pt;
 	letter-spacing: 1px;
 }
@@ -45,7 +55,8 @@ body{
 }
 
 .futura-bold{
-	font-family: 'SF-Heavy','FuturaBold','Futura';
+	font-family: 'Gravity-Bold','SF-Heavy','FuturaBold','Futura';
+	font-weight: 900;
 }
 
 .wrapper {
