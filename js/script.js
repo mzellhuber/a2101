@@ -122,7 +122,7 @@ function changeLanguage(){
 
 		$('.wens-p').html('Glamour and attitude are concepts that define the work of Wens Olvera. Taking inspiration from its founder, the brand reflects a strong masculine presence well integrated to a stylized, elegant and delicate environment. This balance between features: male and female, bright and matt, natural and synthetic ... achieves a neutrality that inspires comfort and belonging in men and women.<br><br>The diversity of shades provided by the metal with the movement of light reflects the adaptability and constant change that keep Wenceslao and his team at the forefront. The use of white, black and gray brings reliability, luminosity and cleanliness, promising its customers results that fully meet the expectations of luxury and attraction.')
 
-		$('.a2-c').html('A2;//101 is a design studio specialized in brand and image development for high-end businesses.')
+		$('.a2-c').html('A2; /101 is a design studio specialized in brand and image development for high-end businesses.')
 
 		$('.a2-p').html('Through a minimal style and asymmetrical structure, the brand projects the elegance, honesty and neatness it offers its clients. The use of alphanumeric characters in the name and logo reflects the search for universality: good design must be functional, beautiful, honest and understandable regardless of the origin of the person looking at it.<br><br>The use of asymmetry reflects the order and beauty that can be found in chaos, expressing the philosophy of the study to look for alternative sources of inspiration to find solutions in the most unexpected places.')
 
@@ -195,13 +195,13 @@ function changeLanguage(){
 
 		$('.nicte-c').html('Nictë es una marca de cosméticos artesanales naturales especializada en productos para spas y boutiques.')
 
-		$('.nicte-p').html('Nictë se caracteriza por calidad artesanal y sus ingredientes selectos. A pesar de su nombre maya, el objetivo fue desarrollar una imágen que plasmara los valores, culturales y estéticos, del México contemporáneo.<br><br>La imagen propuesta es honesta y directa: presenta sólo la información necesaria de forma clara. Al igual que los productos, la imagen busca ser poco invasiva: evitar la saturación y acentuar la delicadeza y el balance de las mezclas para generar paz y bienestar.')
+		$('.nicte-p').html('Nictë se caracteriza por su calidad artesanal y sus ingredientes selectos. A pesar de su nombre maya, el objetivo fue desarrollar una imágen que plasmara los valores, culturales y estéticos, del México contemporáneo.<br><br>La imagen propuesta es honesta y directa: presenta sólo la información necesaria de forma clara. Al igual que los productos, la imagen busca ser poco invasiva: evitar la saturación y acentuar la delicadeza y el balance de las mezclas para generar paz y bienestar.')
 
 		$('.wens-c').html('Wenceslao Olvera es un destacado estilista y fundador de un salón de belleza especializado en imagen para eventos públicos: presentaciones, desfiles y galas.')
 
 		$('.wens-p').html('Glamour y actitud son conceptos que definen el trabajo de Wens Olvera. Tomando como inspiración el porte de su fundador, la marca refleja una fuerte presencia masculina bien integrada a un ambiente estilizado, elegante y delicado. Este balance entre rasgos: masculino y femenino, brillante y mate, natural y sintético... logra una neutralidad que inspira comodidad y pertenencia en hombres y mujeres. <br><br>La diversidad de tonos que provee el metal con el movimiento de la luz plasma la adaptabilidad y el constante cambio que mantienen a Wenceslao y su equipo a la vanguardia. El uso de blanco, negro y gris aporta confiabilidad, luminosidad y limpieza, prometiendo a sus usuarios resultados que cumplen completamente con las expectativas de lujo y atracción.')
 
-		$('.a2-c').html('A2;//101 es un studio de diseño especializado en el desarrollo de imagen para negocios de alta gama.')
+		$('.a2-c').html('A2; /101 es un studio de diseño especializado en el desarrollo de imagen para negocios de alta gama.')
 
 		$('.a2-p').html('A través de un estilo minimal y estructura asimétrica, la marca proyecta la elegancia, honestidad y pulcritud que ofrece a sus clientes. El uso de caracteres alfanuméricos en el nombre y el logotipo refleja la búsqueda de universalidad: el buen diseño debe ser funcional, bello, honesto y entendible sin importar la procedencia de quien lo mira.<br><br>El uso de asimetría plasma el orden y la belleza que se puede encontrar el en caos, expresando la filosofía del estudio de buscar fuentes de inspiración alternativas para encontrar soluciones en los sitios más inesperados.')
 
