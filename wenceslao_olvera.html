@@ -18,15 +18,32 @@
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 	<body>
+		<!-- Fixed navbar -->
+	    <nav class="navbar navbar-default navbar-fixed-top only-mobile">
+	      <div class="container">
+	        
+	        <div class="row">
+	        	<div class="col-xs-6 ipad-nav">
+	        		<div class= "logo-img"><img class="img-responsive" src="./img/logo.png"></div>
+	        	</div>
+	        	<div class="col-xs-6 mobile-menu">
+	        		<img src="./img/arrow.png" class="ico">
+	        		<br>
+	        		<a class="link-work futura-bold" href="index.html">info</a>|<a class="link-work" href="work.html">work</a>
+	        	</div>
+	        </div>
+	        
+	      </div>
+	    </nav>
 		<div class="container contain">
 			<div class="row">
 				<!--/span-->
-				<div class="col-md-3 col-sm-3 col-xs-2 move-left">
+				<div class="col-md-3 col-sm-3 col-xs-1 move-left">
 					<div class="sidebar-nav-fixed pull-right affix sidebar col-md-3 col-sm-3 col-xs-3">
-						<ul class="nav left">
-								<div class= "logo-img"><img class="img-responsive" src="./img/logo.png"></div>
+						<ul class="nav left left-detail">
+								<div class= "logo-img hide-mobile"><img class="img-responsive" src="./img/logo.png"></div>
 								<li><br><br></li>
-								<div class="move-menu-left">
+								<div class="move-menu-left hide-mobile">
 									<img src="./img/arrow.png" class="ico"><a class="link-work" href="index.html">info</a>|<a class="link-work futura-bold" href="work.html">work</a>
 								</div>
 								<li><br><br></li>
@@ -42,7 +59,7 @@
 					</div>
 					<!--/sidebar-nav-fixed -->
 				</div>
-					<div class="col-md-8 col-sm-8 col-xs-8 center-work">
+					<div class="col-md-8 col-sm-8 col-xs-8 main-div center-work center-detail">
 						
 						<div class="row first-work">
 
@@ -85,7 +102,7 @@
 							<p class="description" style="display: none;">3 — 7</p>
 						</div>
 
-						<div id='date'></div>
+						<div id='date' class="hide-mobile"></div>
 						 
 					</div>
 
@@ -94,18 +111,25 @@
 						<div class="sidebar-nav-fixed pull-right affix sidebar sidebar-right">
 							<div class="well">
 								<ul class="nav ">
-									<li><br><br><br><br></li>
+									<br><br>
+									<li class="line-breaks-sidebar"><br><br></li>
 									<li class="language-link futura-bold change_language" ><button onclick="changeLanguage()">ES</button>
 									</li>
 									<li><br><br></li>
 									<li><br><br><br></li>
 									<div class="social-icons">
-										<li class="rotate mailto"><a href="mailto:central@a2101studio.com?Subject=Hello" target="_top">central@a2101studio.com</a></li>
-										<li class="separator"><br><br>_<br></li>
+										<div class="only-mobile">
+											<br><br><br><br><br><br>
+										</div>
+										<li class="rotate mailto hide-mobile"><a href="mailto:central@a2101studio.com?Subject=Hello" target="_top">central@a2101studio.com</a></li>
+
+										<li class="separator hide-mobile"><br><br>_<br></li>
 										<li><br><br></li>
+										<p class="social-icon only-mobile"><a target="_blank" href="tel:+5214424530228"><i class="fa fa-phone" aria-hidden="true"></i></a></p>
+										<p class="social-icon only-mobile"><a href="mailto:central@a2101studio.com?Subject=Hello" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></p>
 										<p class="social-icon"><a target="_blank" href="https://www.facebook.com/A2101Studio/"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
 										<p class="social-icon"><a target="_blank" href="https://www.instagram.com/a2.101.studio/"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
-										<p class="social-icon"><a target="_blank" href="https://www.linkedin.com/company/16193932/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+										<p class="social-icon hide-mobile"><a target="_blank" href="https://www.linkedin.com/company/16193932/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
 									</div>
 									<li><br><br></li>
 									<li><br><br></li>
