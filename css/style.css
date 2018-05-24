@@ -271,7 +271,7 @@ body{
 #date {
 	position: fixed;
     top: 196px;
-    right: 193px;
+    right: 194px;
     height: 90px;
     width: 62px;
     font-size: 12px;
@@ -390,6 +390,7 @@ body{
 	}
     .social-icons{
     	margin-left: 25%;
+    	margin-top: 200%;
     }
 
     .social-icon{
@@ -412,10 +413,38 @@ body{
 		font-size: 10px;
 	}
 
+	.center-work {
+		left: 0%;
+		padding-top: 20%;
+	}
+
 	/*Index sections*/
 
 	.about-us, .process{
 		margin-bottom: 15px !important;
+	}
+
+
+	.work-text{
+		margin-left: 5%;
+	    margin-right: 5%;
+
+	}
+
+	.move-left {
+	    margin-left: -4%;
+	}
+
+	.go-back{
+		margin-top: 25%;
+	}
+
+	.center-detail{
+		margin-right: 4%;
+	}
+
+	.left-detail{
+		padding-left: 30%;
 	}
 
 }
@@ -452,4 +481,5 @@ body{
 	.mobile-menu{
 		left: 4.333333%;
 	}
+
 }
