@@ -330,7 +330,7 @@ body{
 	}
 
 	.logo-img img{
-		width: 55%;
+		width: 60%;
 		max-width: 100px;
 
 	}
@@ -371,7 +371,7 @@ body{
 	}
 
 	.first p, .second p{
-		font-size: 9px !important;
+		font-size: 7.7px !important;
 	}
 
 	.elegant{
@@ -379,7 +379,7 @@ body{
 	}
 
 	.first-work{
-		font-size: 9px;
+		font-size: 7.7px;
 	}
 
 	.hide-mobile{
@@ -450,6 +450,12 @@ body{
 
 }
 
+/* iPhone 5 Retina regardless of IOS version */
+@media (device-height : 568px) and (device-width : 320px) and (-webkit-min-device-pixel-ratio: 2) {
+	.social-icons{
+		margin-top: -15px;
+	}
+}
 
 /* iPad Styles */
 @media (min-width: 768px) and (max-width: 768px) {
