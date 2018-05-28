@@ -455,13 +455,48 @@ body{
 	.social-icons{
 		margin-top: -15px;
 	}
+
+	.go-back {
+	    margin-top: -70%;
+	}
+}
+
+/*iPhone 6/8/8*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2){ 
+	.go-back {
+	    margin-top: 95%;
+	}
+
+	.ipad-nav{
+		margin-left: 10px;
+	}
+
+	.mobile-menu{
+		margin-left: -10px;
+	}
+
+	.first-work {
+    	margin-right: -10%;
+	}
+}
+
+/*iPhone 6/8/8 Plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3){ 
+	.go-back {
+	    margin-top: 325%;
+	}
+
 }
 
 /* iPad Styles */
 @media (min-width: 768px) and (max-width: 768px) {
 	.main-div {
 	    padding-left:0%;
-    	margin-left: 13.333333%;
+    	margin-left: 18.333333%;
+	}
+
+	.go-back {
+	    margin-top: 325%;
 	}
 
 	.ipad-nav{
@@ -487,6 +522,14 @@ body{
 
 	.mobile-menu{
 		left: 4.333333%;
+	}
+
+	.center-detail {
+	    margin-right: -1%;
+	}
+
+	.work-ipad{
+		margin-left: 7%;
 	}
 
 }
